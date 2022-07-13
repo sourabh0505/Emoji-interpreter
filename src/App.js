@@ -55,7 +55,7 @@ export default function App() {
     var meaning = emojidictionary[userInput];
 
     if (meaning === undefined) {
-      meaning = "It is not available in our DB";
+      meaning = "Failed to detect the Emoji :(";
     }
     setMeaningOfTheEmoji(meaning);
   }
